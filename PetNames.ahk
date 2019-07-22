@@ -3,7 +3,7 @@
 
 ;~ -+-+-+-+ Start Script +-+-+-+-
 ;~ Get array of pet names
-FileRead, petNames, D:\Projects\PetNamesFile.txt
+FileRead, petNames, PetNamesFile.txt
 
 Loop, Parse, petNames, `n, `r
 {
